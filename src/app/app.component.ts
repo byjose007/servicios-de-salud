@@ -11,15 +11,52 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: 'Inicio',
       url: '/home',
-      icon: 'home'
+      icon: 'fa fa-home'
     },
     {
-      title: 'List',
+      title: 'Farmacias',
       url: '/list',
-      icon: 'list'
-    }
+      icon: 'fas fa-clinic-medical'
+    },
+    {
+      title: 'Consejos',
+      url: '/list',
+      icon: 'fa fa-heartbeat'
+    },
+    {
+      title: 'Centros de Salud',
+      url: '/list',
+      icon: 'fa fa-hospital'
+    },
+    {
+      title: 'Laboratorios',
+      url: '/list',
+      icon: 'fas fa-flask'
+    },
+    {
+      title: 'Campañas',
+      url: '/list',
+      icon: 'fas fa-syringe'
+    },
+    {
+      title: 'Consultas',
+      url: '/list',
+      icon: 'fas fa-comment-medical'
+    },
+    {
+      title: 'Pedidos',
+      url: '/list',
+      icon: 'fas fa-pills'
+    },
+    
+    {
+      title: 'Salir',
+      url: '/list',
+      icon: 'fa fa-power-off'
+    },
+
   ];
 
   constructor(
