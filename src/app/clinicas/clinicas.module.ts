@@ -5,13 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FamaciasPage } from './famacias.page';
-import { HereMapComponent } from '../here-map/here-map.component';
+import { ClinicasPage } from './clinicas.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: FamaciasPage
+    component: ClinicasPage
   }
 ];
 
@@ -22,6 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [FamaciasPage, HereMapComponent]
+  declarations: [ClinicasPage]
 })
-export class FamaciasPageModule {}
+export class ClinicasPageModule {}
